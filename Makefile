@@ -1,8 +1,8 @@
 # Первый Makefile
-say_hello:
-	console.log('Hello')
+say:
+	console.log('---= Hello =---')
 
-Do_install:
+install:
 	npm ci
 
 brain-games:
@@ -10,4 +10,3 @@ brain-games:
 
 publish:
 	npm publish --dry-run
-
