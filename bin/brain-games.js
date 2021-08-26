@@ -1,4 +1,15 @@
 #!/usr/bin/env node
-import readlineSync from 'readline-sync';
+import usrName from '../src/cli.js';
 
-export default readlineSync.question('Your answer: ');
+
+// console.log('Welcome to the Brain Games!');
+
+console.log(`Hello, ${usrName}!`);
+
+
+/*
+$ brain-games
+Welcome to the Brain Games!
+May I have your name? John
+Hello, John!
+*/
