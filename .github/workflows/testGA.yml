@@ -18,6 +18,7 @@ jobs:
         node-version: [14.x]
 
     steps:
+      - name: echo 'Kerik was here!!!'
         # Check-out repository under GitHub workspace
         # https://github.com/actions/checkout
       - uses: actions/checkout@v2
