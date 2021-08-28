@@ -3,7 +3,11 @@
 
 
 
+## Run lint
 
+```sh
+make lint
+```
 
 
 
