@@ -20,24 +20,24 @@ const quest = () => {
     const numIn = someNum();
 
     if (check(numIn)) {
-      console.log(`Question: ${numIn}?`);
+      console.log(`Question: ${numIn}`);
       const yourAnsYes = readlineSync.question('Your answer: ').toLowerCase();
 
       if (yourAnsYes === 'yes') {
         console.log('Correct!');
       } else {
-        console.log(`- "${yourAnsYes}" is wrong answer ;(. Correct answer was "yes"!`);
-        return console.log(`Let's try again, ${player}.`);
+        console.log(`'${yourAnsYes}' is wrong answer ;(. Correct answer was 'yes'.`);
+        return console.log(`Let's try again, ${player}!`);
       }
     } else {
-      console.log(`Question: ${numIn}?`);
+      console.log(`Question: ${numIn}`);
       const yourAnsNo = readlineSync.question('Your answer: ').toLowerCase();
 
       if (yourAnsNo === 'no') {
         console.log('Correct!');
       } else {
-        console.log(`- "${yourAnsNo}" is wrong answer ;(. Correct answer was "no"!`);
-        return console.log(`Let's try again, ${player}.`);
+        console.log(`'${yourAnsNo}' is wrong answer ;(. Correct answer was 'no'.`);
+        return console.log(`Let's try again, ${player}!`);
       }
     }
   }
