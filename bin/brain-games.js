@@ -3,6 +3,8 @@
 // eslint-disable-next-line import/extensions
 import usrName from '../src/cli.js';
 
-console.log('Welcome to the Brain Games!');
+const answer = (str) => console.log(`Hello, ${str}!`);
 
-console.log(`Hello, ${usrName}!`);
+answer(usrName);
+
+export default answer;
