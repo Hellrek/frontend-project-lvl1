@@ -1,3 +1,2 @@
 # Run Linter
-name: Run linter
 run: make lint
