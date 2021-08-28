@@ -6,8 +6,7 @@ jobs:
     steps:
       - name: Run linter
         # Run my Linter for tets 
-        run: |
-          make lint
+        run: make lint
       - name: Test & publish code coverage
         # Publish code coverage on Code Climate
         # https://github.com/paambaati/codeclimate-action
