@@ -1,8 +1,7 @@
 #!/usr/bin/env node
+/* eslint-disable import/no-unresolved */
 /* eslint-disable import/extensions */
 import * as game from '../game/index.js';
-import answer from './brain-games.js';
-import src from '../src/cli.js';
+import './brain-games.js';
 
-src;
-game.quest(answer);
+game.quest();
