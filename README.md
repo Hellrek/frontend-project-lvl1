@@ -5,4 +5,5 @@
 
 [![asciicast](https://asciinema.org/a/cecHHXgK8UhzaIt7QUb9n0SOs.svg)](https://asciinema.org/a/cecHHXgK8UhzaIt7QUb9n0SOs)
 
+[![Build Status](https://app.travis-ci.com/Hellrek/frontend-project-lvl1.svg?branch=main)](https://app.travis-ci.com/Hellrek/frontend-project-lvl1)
 [![Kerik LOGO](https://i.pinimg.com/236x/b1/7f/81/b17f81d0f2376021e4919513fd541053--star-logo-logo-s.jpg)](https://ru.hexlet.io/u/kerik)
