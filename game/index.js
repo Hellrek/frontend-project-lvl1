@@ -1,7 +1,8 @@
 /* eslint-disable import/no-unresolved */
 /* eslint-disable import/extensions */
-/* eslint-disable no-console */
 // import readlineSync from 'readline-sync';
 import * as even from './even.js';
+import * as calc from './calc.js';
 
-even.quest();
+export const runEvenGame = () => even.runGame();
+export const runCalcGame = () => calc.runGame();
