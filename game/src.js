@@ -34,6 +34,21 @@ const mathOut = (numA, numB, opr) => {
   const some = (`${numA} ${opr} ${numB} `);
   return some;
 };
+
+const divisor = (a, b) => {
+  let tmpA = a;
+  let tmpB = b;
+  while (tmpA !== tmpB) {
+    if (tmpA > tmpB) {
+      const numTMP = tmpA;
+      tmpA = tmpB;
+      tmpB = numTMP;
+    }
+    tmpB -= tmpA;
+  }
+  return tmpA;
+};
+
 export {
-  printText, someNum, operator, mathIn, mathOut,
+  printText, someNum, operator, mathIn, mathOut, divisor,
 };
