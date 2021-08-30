@@ -49,6 +49,32 @@ const divisor = (a, b) => {
   return tmpA;
 };
 
+const progression = () => {
+  const numProgression = someNum(49) + 1;
+  let zero = 0;
+  const arraysResult = [];
+  for (let i = 10; i > 0; i -= 1) {
+    arraysResult.push(zero + numProgression);
+    zero += numProgression;
+  }
+  return arraysResult;
+};
+
+const progressionMiss = (arr, missNum = someNum(9) + 1) => {
+  const showArr = [];
+  const size = arr.length;
+  for (let i = 0; i < size; i += 1) {
+    if (i === missNum) {
+      showArr.push('..');
+    } else {
+      showArr.push(arr[i]);
+    }
+  }
+  return showArr.join(' ');
+};
+progressionMiss(progression(), someNum(9));
+progression();
+
 export {
   printText, someNum, operator, mathIn, mathOut, divisor,
 };
