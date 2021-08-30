@@ -73,6 +73,12 @@ const progressionMiss = (arr, missNum = someNum(9) + 1) => {
   return showArr.join(' ');
 };
 
+const progressionMissAnswer = (arr, numAns) => {
+  const result = arr[numAns];
+  return result;
+};
+
 export {
-  printText, someNum, operator, mathIn, mathOut, divisor,
+  printText, someNum, operator, mathIn, mathOut,
+  divisor, progression, progressionMiss, progressionMissAnswer,
 };

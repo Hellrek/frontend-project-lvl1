@@ -18,7 +18,7 @@ export const runGame = (num) => {
     if (Number(yourAnsw) === result) {
       printText('Correct!');
     } else {
-      printText(`'${yourAnsw}' is wrong answer ;(. Correct answer was '25'`);
+      printText(`'${yourAnsw}' is wrong answer ;(. Correct answer was '${result}'`);
       return printText(`Let's try again, ${player}!`);
     }
   }
