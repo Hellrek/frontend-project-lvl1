@@ -5,7 +5,7 @@ const someNum = (num = 100) => Math.floor(Math.random() * num);
 
 const operator = () => {
   const arrays = ['+', '-', '*', '/'];
-  const choose = Math.floor(Math.random() * (3 - 0 + 1));
+  const choose = Math.floor(Math.random() * (2 - 0 + 1)); // (!3! - 0 + 1)) = '/';
   return arrays[choose];
 };
 
@@ -94,3 +94,17 @@ export {
   printText, someNum, operator, mathIn, mathOut, simpleNum,
   divisor, progression, progressionMiss, progressionMissAnswer,
 };
+
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
+operator();
