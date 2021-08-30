@@ -72,8 +72,6 @@ const progressionMiss = (arr, missNum = someNum(9) + 1) => {
   }
   return showArr.join(' ');
 };
-progressionMiss(progression(), someNum(9));
-progression();
 
 export {
   printText, someNum, operator, mathIn, mathOut, divisor,
