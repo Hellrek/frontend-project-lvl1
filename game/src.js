@@ -78,7 +78,19 @@ const progressionMissAnswer = (arr, numAns) => {
   return result;
 };
 
+const simpleNum = (num) => {
+  if (num === 1 || num === 0) {
+    return false;
+  }
+  for (let i = 2; i < num; i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+};
+
 export {
-  printText, someNum, operator, mathIn, mathOut,
+  printText, someNum, operator, mathIn, mathOut, simpleNum,
   divisor, progression, progressionMiss, progressionMissAnswer,
 };
