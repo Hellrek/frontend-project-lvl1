@@ -1,6 +1,8 @@
-### Hexlet tests and linter status:
+### My first code ###
+
 [![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fatrox%2Fsync-dotenv%2Fbadge)](https://actions-badge.atrox.dev/atrox/sync-dotenv/goto)
 
+### Hexlet tests and linter status:
 [![Build Status](https://app.travis-ci.com/Hellrek/frontend-project-lvl1.svg?branch=main)](https://app.travis-ci.com/Hellrek/frontend-project-lvl1)
 
 
@@ -34,3 +36,5 @@
 
 
 [![Kerik LOGO](https://i.pinimg.com/236x/b1/7f/81/b17f81d0f2376021e4919513fd541053--star-logo-logo-s.jpg)](https://ru.hexlet.io/u/kerik)
+
+### Kerik was here! ###
